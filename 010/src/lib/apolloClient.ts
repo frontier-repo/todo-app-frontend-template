@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 export const client = new ApolloClient({
-	uri: "http://localhost:46000/",
+	uri: "http://localhost:4000/",
 	cache: new InMemoryCache({
 		typePolicies: {
 			Query: {
